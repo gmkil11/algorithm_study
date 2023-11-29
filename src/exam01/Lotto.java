@@ -51,6 +51,6 @@ public class Lotto {
         }
         answer[1] = minRank;
 
-        return answer;
+        return nums;
     }
 }
