@@ -5,19 +5,30 @@ import java.util.Scanner;
 
 public class escape {
     /**
-     * 한수는 지금 (x, y)에 있다. 직사각형은 각 변이 좌표축에 평행하고,
-     * 왼쪽 아래 꼭짓점은 (0, 0), 오른쪽 위 꼭짓점은 (w, h)에 있다.
-     * 직사각형의 경계선까지 가는 거리의 최솟값을 구하는 프로그램을 작성하시오.
      * @param args
+     * 6 2 10 3 - 1
+     * 1 1 5 5 - 1
+     * 653 375 1000 1000 - 347
+     * 161 181 762 375 - 161
+     *
+     * 1. 0번 인덱스와 2번 인덱스, 1번 인덱스와 2번 인덱스 중 차가 작은 것을 기준으로 잡음
+     * 2. 기준으로 잡은 것에서 큰값을 절반으로 나눴을 때 좌표값보다 작다면, 좌표값 만큼을 출력
+     * 3. 아니라면 크기에서 좌표값 뺀것을 출력
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-        String[] squares = sc.next().split(" ");
+        String squares = sc.nextLine();
 
         List<String> squareList = new ArrayList<>(Arrays.asList(squares));
 
         System.out.println(squareList);
+        int oneThree = Integer.parseInt(squareList.get(2)) - Integer.parseInt(squareList.get(0));
+        int twoFour = Integer.parseInt(squareList.get(1)) - Integer.parseInt(squareList.get(3));
+
+
+        if ( oneThree > twoFour ) {
+
+        }
 
     }
 }
