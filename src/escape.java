@@ -13,7 +13,7 @@ public class escape {
      *
      * 1. 0번 인덱스와 2번 인덱스, 1번 인덱스와 2번 인덱스 중 차가 작은 것을 기준으로 잡음
      * 2. 기준으로 잡은 것에서 큰값을 절반으로 나눴을 때 좌표값보다 작다면, 좌표값 만큼을 출력
-     * 3. 아니라면 크기에서 좌표값 뺀것을 출력
+     * 3. 아니라면 크기에서 좌표값 뺀것을 출력0
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
