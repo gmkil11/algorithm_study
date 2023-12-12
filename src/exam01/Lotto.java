@@ -26,6 +26,7 @@ public class Lotto {
         Arrays.sort(lottos);
         Arrays.sort(win_nums);
 
+        int[] nums = new int[0];
         int zeroCount = 0; // 알아볼 수 없는 번호(0)의 개수
         int matchCount = 0; // 맞힌 번호의 개수
 

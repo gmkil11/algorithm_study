@@ -1,4 +1,4 @@
-package exam01;
+package BaekJoon;
 
 public class Contact {
     /**
@@ -19,6 +19,27 @@ public class Contact {
      * @param args
      */
     public static void main(String[] args) {
+//        int T = new Scanner(System.in).nextInt();
+//
+//        for (int i = 0; i <= T; i++) {
+//
+//        }
 
+        String case1 ="10010111"; // NO
+        String case2 ="011000100110001"; // NO
+        String case3 ="0110001011001"; // YES
+
+        for (int i = 0; i < case1.length(); i++) {
+
+        }
     }
+
+//    public String isContact(String value) {
+//
+//
+//
+//
+//
+//        return
+//    }
 }
