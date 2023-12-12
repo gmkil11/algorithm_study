@@ -9,6 +9,7 @@ public class CarMeetingPoint {
         int positionA = 0; // A 자동차의 위치 (km)
         int positionB = 0; // B 자동차의 위치 (km)
 
+
         while (true) {
             positionA += speedA;
             positionB += speedB;
